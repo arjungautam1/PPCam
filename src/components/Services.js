@@ -1,5 +1,5 @@
 import React from 'react';
-import cctvImage from '../assets/images/cctvinstallation.jpg';
+import cctvImage from '../assets/images/cctvservices.png';
 import alarmImage from '../assets/images/alarm.webp';
 import accessImage from '../assets/images/AccessControl.webp';
 import cablingImage from '../assets/images/cabling.jpg';
