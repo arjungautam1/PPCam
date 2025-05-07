@@ -2,7 +2,7 @@ import React from 'react';
 import cctvImage from '../assets/images/cctvinstallation.jpg';
 import alarmImage from '../assets/images/alarm.webp';
 import accessImage from '../assets/images/AccessControl.webp';
-import cablingImage from '../assets/images/cabling.png';
+import cablingImage from '../assets/images/cabling.jpg';
 import '../styles/Services.css';
 
 const Services = () => {
