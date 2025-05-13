@@ -15,7 +15,7 @@ function App() {
         <Contact />
       </main>
       <footer className="footer">
-        <p>&copy; {new Date().getFullYear()} PP Surveillance and Security Solutions. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} PP Surveillance & Security Solutions. All rights reserved.</p>
       </footer>
     </div>
   );

@@ -29,12 +29,17 @@ const Services = () => {
     },
   ];
 
+  const handleServiceClick = () => {
+    // Open WhatsApp link in a new tab
+    window.open('https://wa.me/qr/62VMV33QYWNSK1', '_blank');
+  };
+
   return (
     <section className="services" id="services">
       <h2 className="section-title">Our Services</h2>
       <div className="service-list">
         {services.map((service, index) => (
-          <div className="service-item" key={index}>
+          <div className="service-item" key={index} onClick={handleServiceClick} style={{ cursor: 'pointer' }}>
             {service.image ? (
               <img src={service.image} alt={service.title} />
             ) : (
