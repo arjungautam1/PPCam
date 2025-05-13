@@ -8,14 +8,14 @@ import '../styles/Services.css';
 const Services = () => {
   const services = [
     {
-      title: 'CCTV Installation',
+      title: 'CCTV Installation & Monitoring',
       image: cctvImage,
-      description: 'High-quality CCTV systems for residential and commercial properties',
+      description: 'High-quality CCTV systems for residential and commercial properties with 24/7 monitoring',
     },
     {
-      title: 'Alarm System',
+      title: 'Alarm System & Monitoring',
       image: alarmImage,
-      description: 'Advanced alarm systems to protect your home or business',
+      description: 'Advanced alarm systems to protect your home or business with professional monitoring',
     },
     {
       title: 'Access Control',
@@ -23,9 +23,9 @@ const Services = () => {
       description: 'Secure access control solutions for restricted areas',
     },
     {
-      title: 'Network Cabling',
+      title: 'Structured Cabling',
       image: cablingImage,
-      description: 'Professional network cabling for your security infrastructure',
+      description: 'Professional network and structured cabling for your security infrastructure',
     },
   ];
 
